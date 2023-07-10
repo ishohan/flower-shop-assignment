@@ -46,6 +46,24 @@ body{
     color: #fff;
     border: 0px;
     }
-    .banner-flower{
-        
+    /* Flower Sample */
+    .flower-sample{
+    color: #272727;
+    text-align: center;
     }
+    .flower-sample-title{
+        margin-top: 120px;
+        margin-bottom: 30px;
+        font-size: 40px;
+        font-weight: 800; 
+    }
+   .flower-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 200px 200px;
+    
+   }
+   .flower-item{
+    text-align: center;
+   }
