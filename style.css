@@ -6,6 +6,30 @@ body{
 *{
     margin:0;
 }
+
+/* nav bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header{
+    color: #fff;
+    background-color: #E55473;
+    padding-left: 100px;
+    height: 100px;
+    padding-top: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 100px;
+}
+
+
 /* heading */
 .banner{
     background: #E554731A;
