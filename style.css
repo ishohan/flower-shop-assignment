@@ -126,10 +126,13 @@ body{
   }
   .flower-container{
     display: flex;
-    padding-left: 185px;
+    padding-left: 160px;
+    
+    
   }
   .flower-div{
     padding: 35px;
+    
 }
 .names{
     text-align: center;
@@ -148,7 +151,7 @@ body{
     padding-top: 15px;
 }
 .contact-section{
-    width: 1200px;
+    width: 1430px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -252,4 +255,21 @@ body{
     font-weight: 400;
     line-height: normal;
     padding-bottom: 100px;
+}
+.special-section{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.our-team{
+    background-color: #E55473;
+    width: auto;
+    
+}
+
+
+.team-image{
+    width: 400px;
+    height: 400px;
+    padding-bottom: 20px;
 }
