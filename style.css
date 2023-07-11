@@ -23,7 +23,7 @@ body{
 }
 .flower-title{
     display: flex;
-    width: 708px;
+    width: 100%;
     flex-direction: column;
     flex-shrink: 0;
     color: #272727;
@@ -59,13 +59,16 @@ body{
     }
 
     .flower-item{
-        width: 600px;
+        width: 464px;
         height: 538px;
         /* flex-shrink: 0; */
         display: flex;
         justify-content: center;
         border-radius: 300px 300px 0px 0px;
         background: rgba(167, 33, 98, 0.15);
+    }
+    .flower-item img{
+        padding: 129px 0px 0px 0px;
     }
 
 
@@ -96,12 +99,83 @@ body{
    }
   .hot-deal-section{
     display: flex;
+    margin: auto;
     align-items: center;
-    width: 1922px;
+    width: 1100px;
     height: 620px;
     flex-shrink: 0;
+  }
+  .flower-container{
+    display: flex;
+    padding-left: 185px;
+  }
+  .flower-div{
+    padding: 35px;
+}
+.names{
+    text-align: center;
+    padding-top: 10px;
+}
+.footer-section{
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-  }
+}
+.footer-align{
+    text-align: center;
+    margin-right: 250px;
+    margin-top: 175px;
+}
+.footer-p{
+    padding-top: 15px;
+}
+.contact-section{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background: url(Flower%20Asset/Rectangle%209.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-top: 100px;
 
-   
+}
+.footer-contect{
+    height: 400px;
+    margin-top: 113px;
+    
+}
+.input-text{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    padding-left: 5px;
+}
+.submit{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #E55473;
+    border: 0px;
+    margin-left: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.latest-section{
+    margin-bottom: 20px;
+}
+.p-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.input-section{
+    display: flex;
+    margin-top:50px;
+}
