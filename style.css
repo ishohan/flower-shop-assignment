@@ -273,3 +273,13 @@ body{
     height: 400px;
     padding-bottom: 20px;
 }
+.btn-shopnow{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-top: 20px;
+       
+}
+
+
